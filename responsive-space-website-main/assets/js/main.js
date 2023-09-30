@@ -10,8 +10,13 @@ if (toggleButton) {
     })
 }
 if(closeButton)
-closeButton.addEventListener
+closeButton.addEventListener("click", ()=>{
+    menu.classList.add("show-menu")
+})
 
+if(closeButton)  {
+    closeButton.addEventListener()
+}
 /*=============== REMOVE MENU MOBILE ===============*/
 
 
